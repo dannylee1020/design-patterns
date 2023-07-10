@@ -1,3 +1,3 @@
 # Definition
 
-** Structural Patterns** let you compose classes or objects into larger structures.
+**Structural Patterns** let you compose classes or objects into larger structures.
