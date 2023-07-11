@@ -1,3 +1,8 @@
+/*
+	The Proxy Pattern provides a surrogate or placeholder for another
+	object to control access to it.
+*/
+
 package proxy
 
 import (
@@ -25,7 +30,7 @@ type Proxy struct {
 }
 
 func (p *Proxy) SendResponse(c *Client) error {
-	client := Client{"test-ip-address"}
+	client := Client{ipAddress: "test-ip-address"}
 
 	for _, ip := range p.Server.blockedIP {
 		if ip == c.ipAddress {

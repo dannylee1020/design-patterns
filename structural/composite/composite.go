@@ -1,3 +1,9 @@
+/*
+	The composite pattern allows you to compose objects into tree structures to
+	represent part-whole hierarchies. Composite lets cliets treat individual objects
+	and compositions of objects uniformly.
+*/
+
 package composite
 
 import (

@@ -1,3 +1,9 @@
+/*
+	The Observer Pattern defines a one-to-many deopendency between objects
+	so that when one object changes state, all of its dependents are notified
+	and updated automatically.
+*/
+
 package observer
 
 import (
@@ -44,7 +50,6 @@ func (c *ConcretePublisher) Notify() {
 }
 
 // implement observer
-
 type ConcreteObserver struct{}
 
 func NewObserver() ConcreteObserver {

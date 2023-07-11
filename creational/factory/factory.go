@@ -1,3 +1,9 @@
+/*
+	The Factory Pattern defines an interface for creating an object,
+	but lets subclasses decide which class to instantiate.
+	it lets a class defer instantiation to subclasses.
+*/
+
 package factory
 
 import (

@@ -1,3 +1,8 @@
+/*
+	The Iterator Pattern provides a way to access the elements of an aggergate object
+	sequentially without exposing its underlying representation
+*/
+
 package main
 
 import (

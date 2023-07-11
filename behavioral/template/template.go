@@ -1,3 +1,10 @@
+/*
+	The Template Pattern defines the skeleton of an algorithm in a method,
+	deferring some steps to subclasses. Template Method lets subclasses
+	redefine certain steops of an algorithm without changing the algorithm's
+	structure
+*/
+
 package main
 
 import (
